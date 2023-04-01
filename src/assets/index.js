@@ -25,7 +25,7 @@ import cgi from "./company/CGI.jpg"
 import exceed from "./company/Exceed.jpg"
 import protel from "./company/Protel.jpg"
 
-import integral from "./petsify.png";
+import integral from "./integ.png";
 import petsify from "./petsify.png";
 import thep3life from "./thep3life.png";
 import fourcolorconjecture from "./fourcolorconjecture.png";
