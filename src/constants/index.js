@@ -18,9 +18,9 @@ import {
     cgi,
     exceed,
     protel,
-    thep3life,
     petsify,
     integral,
+    thep3,
     fourcolorconjecture,
     cointracker,
     gallantry,
@@ -213,7 +213,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: web,
+      image: thep3,
       source_code_link: "https://thep3life.company/",
     },
     {
@@ -231,7 +231,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: web,
+      image: petsify,
       source_code_link: "https://petsify.ph/",
     },
     {
@@ -249,7 +249,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: web,
+      image: integral,
       source_code_link: "https://integralmrktg.com/",
     },
     {

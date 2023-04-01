@@ -25,7 +25,9 @@ import cgi from "./company/CGI.jpg"
 import exceed from "./company/Exceed.jpg"
 import protel from "./company/Protel.jpg"
 
-
+import integral from "./integral.png"
+import petsify from "./petsify.png"
+import thep3 from "./thep3.png"
 import fourcolorconjecture from "./fourcolorconjecture.png";
 import cointracker from "./cointracker.jpg";
 import jetgame from "./jetgame.jpg";
@@ -58,6 +60,9 @@ export {
   cgi,
   exceed,
   protel,
+  integral,
+  petsify,
+  thep3,
   fourcolorconjecture,
   cointracker,
   gallantry,
