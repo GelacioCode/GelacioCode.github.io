@@ -25,7 +25,7 @@ import cgi from "./company/CGI.jpg"
 import exceed from "./company/Exceed.jpg"
 import protel from "./company/Protel.jpg"
 
-import integralmarketing from "./integralmarketing.png";
+import integral from "./integralmarketing.png";
 import petsify from "./petsify.png";
 import thep3life from "./thep3life.png";
 import fourcolorconjecture from "./fourcolorconjecture.png";
@@ -62,7 +62,7 @@ export {
   protel,
   thep3life,
   petsify,
-  integralmarketing,
+  integral,
   fourcolorconjecture,
   cointracker,
   gallantry,

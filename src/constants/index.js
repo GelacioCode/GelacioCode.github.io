@@ -20,7 +20,7 @@ import {
     protel,
     thep3life,
     petsify,
-    integralmarketing,
+    integral,
     fourcolorconjecture,
     cointracker,
     gallantry,
@@ -249,7 +249,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: integralmarketing,
+      image: integral,
       source_code_link: "https://integralmrktg.com/",
     },
     {
