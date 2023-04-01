@@ -213,7 +213,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: thep3life,
+      image: web,
       source_code_link: "https://thep3life.company/",
     },
     {
@@ -231,7 +231,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: petsify,
+      image: web,
       source_code_link: "https://petsify.ph/",
     },
     {
@@ -249,7 +249,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: integral,
+      image: web,
       source_code_link: "https://integralmrktg.com/",
     },
     {
