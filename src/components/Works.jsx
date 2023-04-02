@@ -72,14 +72,14 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
-          variants={textVariant()}
+      
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           The presented projects demonstrate the skills that I have acquired by successfully completing them. Each project is briefly summarized and includes links to its code repositories and live demos. They showcase my proficiency in solving intricate problems, working with various technologies, and efficiently managing projects.
