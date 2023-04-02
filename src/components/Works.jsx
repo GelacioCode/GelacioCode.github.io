@@ -79,7 +79,7 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={textVariant()}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           The presented projects demonstrate the skills that I have acquired by successfully completing them. Each project is briefly summarized and includes links to its code repositories and live demos. They showcase my proficiency in solving intricate problems, working with various technologies, and efficiently managing projects.
