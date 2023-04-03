@@ -6,12 +6,17 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { FaLinkedin, FaTwitter, FaTelegram } from 'react-icons/fa';
 
 // 1yK_K14e4Vhu9P88R
 // service_anqpeus
 // template_7zxpz6r
 
 const Contact = () => {
+
+  const openLinkInNewTab = (url) => {
+    window.open(url, '_blank');
+  };
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -68,7 +73,9 @@ const Contact = () => {
   };
 
   return (
-    <div
+    <>
+
+<div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
@@ -132,7 +139,32 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+
+      
     </div>
+    
+
+    <motion.div
+      variants={slideIn("down", "tween", 0.2, 1)}
+      className="mt-10"
+    >
+      <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
+        You can also reach out to me with:
+
+        <div className='flex mt-2'>
+          <FaLinkedin className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('https://www.linkedin.com/in/samuel-allen-gelacio/')} />
+          <FaTwitter className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('https://twitter.com/@SamuelGelacio')} />
+          <FaTelegram className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('https://t.me/GelacioCode')} />
+        </div>
+      </div>
+    </motion.div>
+
+    </>
+    
+
+    
+
+    
   );
 };
 
