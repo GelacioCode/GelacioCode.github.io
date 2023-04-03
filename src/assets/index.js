@@ -7,6 +7,8 @@ import search from "./search.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import resume from "./Samuel Allen Gelacio - Resume.pdf";
+
 import css from "./tech/css.png";
 import angular from "./tech/angular.png";
 import mui from "./tech/mui.png";
@@ -36,6 +38,7 @@ import anticovid from "./anticovid.jpg";
 import year3000 from "./year3000.jpg";
 
 export {
+  resume,
   logo,
   backend,
   creator,

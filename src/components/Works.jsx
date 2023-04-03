@@ -17,6 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
+    <div className='flex justify-center lg:justify-start'>
     <motion.div>
       <Tilt
         options={{
@@ -36,13 +37,14 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               style={{border: 'black', backgroundColor: 'white'}}
             >
               <img
                 src={search}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
+                
               />
             </div>
           </div>
@@ -66,6 +68,7 @@ const ProjectCard = ({
         </div>
       </Tilt>
     </motion.div>
+    </div>
   );
 };
 
@@ -86,7 +89,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center lg:justify-start'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
