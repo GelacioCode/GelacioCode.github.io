@@ -26,6 +26,7 @@ const ProjectCard = ({
           speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        style={{ maxHeight: '700px' }} // add maxHeight here
       >
         <div className='relative w-full h-[230px]'>
           <img

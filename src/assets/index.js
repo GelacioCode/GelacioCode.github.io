@@ -22,6 +22,9 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import csharp from "./tech/csharp.png";
+import java from "./tech/java.png";
 
 import cgi from "./company/CGI.jpg"
 import exceed from "./company/Exceed.jpg"
@@ -56,6 +59,9 @@ export {
   mysql,
   nodejs,
   reactjs,
+  c,
+  csharp,
+  java,
   mui,
   tailwind,
   typescript,

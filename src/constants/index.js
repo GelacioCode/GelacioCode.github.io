@@ -14,6 +14,9 @@ import {
     angular,
     git,
     figma,
+    c,
+    csharp,
+    java,
     mui,
     cgi,
     exceed,
@@ -117,6 +120,18 @@ import {
       name: "figma",
       icon: figma,
     },
+    {
+      name: "c",
+      icon: c,
+    },
+    {
+      name: "csharp",
+      icon: csharp,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
   ];
   
   const experiences = [
@@ -202,7 +217,7 @@ import {
       projectType:"Exceed Project:",
       name: "The P3 Life",
       description:
-        "A web application that offers education and private tutoring services to teach master courses to clients on learning, leadership and human behavior.",
+        "A web application that offers education and private tutoring services to teach courses to clients on learning and leadership",
       tags: [
         {
           name: "WordPress",
@@ -256,7 +271,7 @@ import {
       projectType:"College Project:",
       name: "Four Color Conjecture",
       description:
-        "A comprehensive website offers users to build their brand better to propel business to new heights",
+        "A game project during when I'm in college. This game follows the logic of Four Color Conjecture. A great way to challenge your mind",
       tags: [
         {
           name: "C++",
@@ -274,7 +289,7 @@ import {
       projectType:"College Thesis:",
       name: "Coin Tracker",
       description:
-        "A mobile application that was based on crypto coin trackers but with a feature of getting information about wallet addresses base on what meta games they are playing. It shows a brief summary of information of the account linked. Example {Axie Infinity, Crystal Kingdom, CryptoBlades}",
+        "A mobile application that helps the user be updated with the latest happening on Crypto. Provides account information too: Ex. Axie, CrtyptoBlades, BombCrypto, Crystal Kingdom",
       tags: [
         {
           name: "Java",
@@ -310,7 +325,7 @@ import {
       projectType:"Game Development:",
       name: "JetShooter",
       description:
-        "A 2d game that was inspired from a popular jetpack shooter game: Jetpack Joyride.",
+        "A 2d game that was inspired from a popular jetpack shooter game: Jetpack Joyride. This is one of the first game projects that I accepted",
       tags: [
         {
           name: "Unity",
@@ -346,7 +361,7 @@ import {
       projectType:"Game Development:",
       name: "Year 3000",
       description:
-        "A 2d shooter game made with unity development tool. Its gameplay is inspired from a popular 2d game metal gear.",
+        "A 2d shooter game made with unity development tool. Its gameplay is inspired from a popular 2d game metal gear, contra and other 2d shooter game.",
       tags: [
         {
           name: "Unity",
