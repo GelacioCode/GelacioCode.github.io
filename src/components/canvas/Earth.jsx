@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF, useTexture } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
@@ -27,10 +27,8 @@ const EarthCanvas = () => {
         <OrbitControls
           autoRotate
           enableZoom={false}
-          maxAzimuthAngle={Math.PI / 4}
-          minAzimuthAngle={-Math.PI / 4}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 3}
+          minPolarAngle={Math.PI / 3}
         />
         <Earth />
 
