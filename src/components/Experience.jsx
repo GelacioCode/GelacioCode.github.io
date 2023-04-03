@@ -58,7 +58,7 @@ const Experience = () => {
             <p className={styles.sectionSubText}>Here are my brief experience in the IT Industry: </p>
           </div>
           <div>
-            <a href={resume} className="bg-white text-black hover:bg-sky-950 hover:text-white font-bold py-2 px-4 rounded">
+            <a href={resume} className="bg-tertiary text-white hover:bg-white hover:text-black font-bold py-2 px-4 rounded">
               Download Resume
             </a>
           </div>
