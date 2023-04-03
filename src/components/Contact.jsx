@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { FaLinkedin, FaTwitter, FaTelegram } from 'react-icons/fa';
+import { FaLinkedin, FaViber, FaTelegram } from 'react-icons/fa';
 
 // 1yK_K14e4Vhu9P88R
 // service_anqpeus
@@ -153,7 +153,7 @@ const Contact = () => {
 
         <div className='flex mt-2'>
           <FaLinkedin className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('https://www.linkedin.com/in/samuel-allen-gelacio/')} />
-          <FaTwitter className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('https://twitter.com/@SamuelGelacio')} />
+          <FaViber className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('viber://pa?chatURI=+639761479600')} />
           <FaTelegram className='mr-3 cursor-pointer' size={24} onClick={() => openLinkInNewTab('https://t.me/GelacioCode')} />
         </div>
       </div>
