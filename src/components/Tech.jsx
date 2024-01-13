@@ -42,7 +42,15 @@ const Tech = () => {
               whileHover={{ scale: 1.1 }}
             >
               <img src={technology.icon} alt={technology.name} style={{ width: "90%" }} />
+              <motion.div 
+                style={{ color: "white", display: "none" }} 
+                whileHover={{ display: "block" }}
+              >
+                {technology.name}
+              </motion.div>
+
             </motion.div>
+            
           ))}
         </AnimatePresence>
       </div>

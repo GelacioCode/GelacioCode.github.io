@@ -7,7 +7,8 @@ import search from "./search.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import resume from "./Samuel Allen Gelacio - Resume.pdf";
+// import resume from "./Samuel Allen Gelacio - Resume.pdf";
+import resume from "./Samuel Allen Gelacio - updated CV.pdf";
 
 import css from "./tech/css.png";
 import angular from "./tech/angular.png";
@@ -30,6 +31,9 @@ import cgi from "./company/CGI.jpg"
 import exceed from "./company/Exceed.jpg"
 import protel from "./company/Protel.jpg"
 
+import furniture from "./furniture.png"
+import jewelries from "./jewelries.png"
+import auto from "./auto.png"
 import integral from "./integral.png"
 import petsify from "./petsify.png"
 import thep3 from "./thep3.png"
@@ -69,6 +73,9 @@ export {
   cgi,
   exceed,
   protel,
+  furniture,
+  jewelries,
+  auto,
   integral,
   petsify,
   thep3,

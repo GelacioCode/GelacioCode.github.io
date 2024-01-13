@@ -24,6 +24,9 @@ import {
     petsify,
     integral,
     thep3,
+    furniture,
+    jewelries,
+    auto,
     fourcolorconjecture,
     cointracker,
     gallantry,
@@ -177,7 +180,18 @@ import {
       company_name: "CGI",
       icon: cgi,
       iconBg: "#E6DEDD",
-      date: "August 2022 - Present",
+      date: "August 2022 - July 2023",
+      points: [
+        "Duties primarily revolve around building software by writing code, as well as modifying software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces. ",
+        "He will also be involved in directing system testing and validation procedures, and also working with customers or departments on technical issues including software system design and maintenance.",
+      ],
+    },
+    {
+      title: "Associate Consultant",
+      company_name: "CGI",
+      icon: cgi,
+      iconBg: "#E6DEDD",
+      date: "July 2023 - Present",
       points: [
         "Duties primarily revolve around building software by writing code, as well as modifying software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces. ",
         "He will also be involved in directing system testing and validation procedures, and also working with customers or departments on technical issues including software system design and maintenance.",
@@ -213,6 +227,96 @@ import {
   ];
   
   const projects = [
+    {
+      projectType:"Part Time Project",
+      name: "Dreamweaver Custom Furniture Transformation",
+      description:
+        "A web application that offers Furniture supplies",
+      tags: [
+        {
+          name: "SiteGround",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NameCheap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: furniture,
+      source_code_link: "https://dreamweavercustomfurnituretransformation.com/",
+    },
+    {
+      projectType:"Part Time Project",
+      name: "Accelerated Technology Lifetime Jewelry Supplies",
+      description:
+        "A web application that offers Jewelries",
+      tags: [
+        {
+          name: "SiteGround",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NameCheap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: jewelries,
+      source_code_link: "https://dreamweavercustomfurnituretransformation.com/",
+    },
+    {
+      projectType:"Part Time Project",
+      name: "Enormous Vehicles for Fun Traveling Guide",
+      description:
+        "A web application that offers Auto Gadgets",
+      tags: [
+        {
+          name: "SiteGround",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NameCheap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: auto,
+      source_code_link: "https://enormousvehiclesforfuntravelingguide.com/",
+    },
     {
       projectType:"Exceed Project:",
       name: "The P3 Life",
