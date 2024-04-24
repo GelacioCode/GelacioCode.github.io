@@ -259,7 +259,7 @@ import {
     },
     {
       projectType:"Part Time Project",
-      name: "Accelerated Technology Lifetime Jewelry Supplies",
+      name: "Lush Jewelry Selection For You Collection",
       description:
         "A web application that offers Jewelries",
       tags: [
