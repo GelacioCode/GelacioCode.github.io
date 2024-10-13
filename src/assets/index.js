@@ -8,7 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 // import resume from "./Samuel Allen Gelacio - Resume.pdf";
-import resume from "./Samuel Allen Gelacio - updated CV.pdf";
+// import resume from "./Samuel Allen Gelacio - updated CV.pdf";
+
+// import resume from "./Samuel Allen Gelacio - Resume.pdf"; 10/13/2024
+import resume from "./Samuel Allen Gelacio Resume.pdf";
 
 import css from "./tech/css.png";
 import angular from "./tech/angular.png";
@@ -31,6 +34,9 @@ import cgi from "./company/CGI.jpg"
 import exceed from "./company/Exceed.jpg"
 import protel from "./company/Protel.jpg"
 
+import stackedupWs from "./stackedupWs.png"
+import stackedupAndroid from "./stackedupAndroid.png"
+import stackedupIphone from "./stackedupIphone.png"
 import furniture from "./furniture.png"
 import jewelries from "./jewelries.png"
 import auto from "./auto.png"
@@ -73,6 +79,9 @@ export {
   cgi,
   exceed,
   protel,
+  stackedupWs,
+  stackedupAndroid,
+  stackedupIphone,
   furniture,
   jewelries,
   auto,

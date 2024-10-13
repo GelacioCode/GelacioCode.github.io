@@ -34,6 +34,9 @@ import {
     anticovid,
     year3000,
     threejs,
+    stackedupWs,
+    stackedupAndroid,
+    stackedupIphone,
   } from "../assets";
   
   export const navLinks = [
@@ -191,7 +194,18 @@ import {
       company_name: "CGI",
       icon: cgi,
       iconBg: "#E6DEDD",
-      date: "July 2023 - Present",
+      date: "July 2023 - June 2024",
+      points: [
+        "Duties primarily revolve around building software by writing code, as well as modifying software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces. ",
+        "He will also be involved in directing system testing and validation procedures, and also working with customers or departments on technical issues including software system design and maintenance.",
+      ],
+    },
+    {
+      title: "Service Consultant",
+      company_name: "CGI",
+      icon: cgi,
+      iconBg: "#E6DEDD",
+      date: "July 2024 - Present",
       points: [
         "Duties primarily revolve around building software by writing code, as well as modifying software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces. ",
         "He will also be involved in directing system testing and validation procedures, and also working with customers or departments on technical issues including software system design and maintenance.",
@@ -227,6 +241,96 @@ import {
   ];
   
   const projects = [
+    {
+      projectType:"Part Time Project",
+      name: "StackedUp Website",
+      description:
+        "A web application that offers Social Media Platform services",
+      tags: [
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Laravel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "phpMyAdmin",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: stackedupWs,
+      source_code_link: "https://app.stackedup.com.au/",
+    },
+    {
+      projectType:"Part Time Project",
+      name: "StackedUp Android Application",
+      description:
+        "An Android application that can view and access your account in mobile version view of StackedUp Website in Android Devices",
+      tags: [
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Google Playstore Console",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Android Studio",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: stackedupAndroid,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.stackedup&hl=en",
+    },
+    {
+      projectType:"Part Time Project",
+      name: "StackedUp IOS Application",
+      description:
+        "An IOS application that can view and access your account in mobile version view of StackedUp Website in Apple Devices",
+      tags: [
+        {
+          name: "App Store Conect",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Testflight",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Xcode",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flutter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Dart",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: stackedupIphone,
+      source_code_link: "https://apps.apple.com/ph/app/stacked-up/id1661067486",
+    },
     {
       projectType:"Part Time Project",
       name: "Dreamweaver Custom Furniture Transformation",
